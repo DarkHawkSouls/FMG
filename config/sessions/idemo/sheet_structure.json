@@ -1,0 +1,314 @@
+{
+  "Cells Report (2)": {
+    "index": 0,
+    "classification": "other",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 35,
+      "min_col": 1,
+      "max_col": 12
+    },
+    "formula_cell_count": 5,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Cells Report (3)": {
+    "index": 1,
+    "classification": "other",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 35,
+      "min_col": 1,
+      "max_col": 12
+    },
+    "formula_cell_count": 5,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Cells Report (4)": {
+    "index": 2,
+    "classification": "other",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 35,
+      "min_col": 1,
+      "max_col": 12
+    },
+    "formula_cell_count": 5,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Cover": {
+    "index": 3,
+    "classification": "input",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 7,
+      "min_col": 1,
+      "max_col": 10
+    },
+    "formula_cell_count": 0,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Model Disclaimer": {
+    "index": 4,
+    "classification": "other",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 49,
+      "min_col": 1,
+      "max_col": 22
+    },
+    "formula_cell_count": 0,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Model_Flow ": {
+    "index": 5,
+    "classification": "other",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 49,
+      "min_col": 1,
+      "max_col": 17
+    },
+    "formula_cell_count": 1,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Index ": {
+    "index": 6,
+    "classification": "input",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 28,
+      "min_col": 1,
+      "max_col": 8
+    },
+    "formula_cell_count": 15,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Sensitivity": {
+    "index": 7,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 10,
+      "min_col": 1,
+      "max_col": 13
+    },
+    "formula_cell_count": 4,
+    "numeric_cell_count": 34,
+    "is_driver_sheet": false
+  },
+  "NTBA": {
+    "index": 8,
+    "classification": "input",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 327,
+      "min_col": 1,
+      "max_col": 45
+    },
+    "formula_cell_count": 808,
+    "numeric_cell_count": 303,
+    "is_driver_sheet": true
+  },
+  "Capex": {
+    "index": 9,
+    "classification": "input",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 81,
+      "min_col": 1,
+      "max_col": 16
+    },
+    "formula_cell_count": 109,
+    "numeric_cell_count": 32,
+    "is_driver_sheet": false
+  },
+  "TBA": {
+    "index": 10,
+    "classification": "input",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 82,
+      "min_col": 1,
+      "max_col": 261
+    },
+    "formula_cell_count": 2537,
+    "numeric_cell_count": 1059,
+    "is_driver_sheet": true
+  },
+  "Rollout": {
+    "index": 11,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 443,
+      "min_col": 1,
+      "max_col": 140
+    },
+    "formula_cell_count": 37071,
+    "numeric_cell_count": 136,
+    "is_driver_sheet": false
+  },
+  "Monthly Financials": {
+    "index": 12,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 399,
+      "min_col": 1,
+      "max_col": 140
+    },
+    "formula_cell_count": 22139,
+    "numeric_cell_count": 256,
+    "is_driver_sheet": false
+  },
+  "Ind AS Monthly": {
+    "index": 13,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 187,
+      "min_col": 1,
+      "max_col": 143
+    },
+    "formula_cell_count": 20130,
+    "numeric_cell_count": 386,
+    "is_driver_sheet": false
+  },
+  "Financials": {
+    "index": 14,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 126,
+      "min_col": 1,
+      "max_col": 93
+    },
+    "formula_cell_count": 1348,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Ind AS Financials": {
+    "index": 15,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 127,
+      "min_col": 1,
+      "max_col": 93
+    },
+    "formula_cell_count": 1399,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "IM Format": {
+    "index": 16,
+    "classification": "other",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 136,
+      "min_col": 2,
+      "max_col": 16
+    },
+    "formula_cell_count": 1090,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Ratios": {
+    "index": 17,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 77,
+      "min_col": 1,
+      "max_col": 33
+    },
+    "formula_cell_count": 797,
+    "numeric_cell_count": 13,
+    "is_driver_sheet": false
+  },
+  "GST": {
+    "index": 18,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 32,
+      "min_col": 1,
+      "max_col": 138
+    },
+    "formula_cell_count": 2770,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Dep&Tax": {
+    "index": 19,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 123,
+      "min_col": 1,
+      "max_col": 23
+    },
+    "formula_cell_count": 1239,
+    "numeric_cell_count": 1,
+    "is_driver_sheet": false
+  },
+  "Termination Value": {
+    "index": 20,
+    "classification": "summary",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 47,
+      "min_col": 1,
+      "max_col": 23
+    },
+    "formula_cell_count": 249,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Time_M": {
+    "index": 21,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 112,
+      "min_col": 1,
+      "max_col": 261
+    },
+    "formula_cell_count": 7114,
+    "numeric_cell_count": 3,
+    "is_driver_sheet": false
+  },
+  "Time_A": {
+    "index": 22,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 57,
+      "min_col": 1,
+      "max_col": 261
+    },
+    "formula_cell_count": 3718,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  },
+  "Check": {
+    "index": 23,
+    "classification": "calculation",
+    "dimensions": {
+      "min_row": 1,
+      "max_row": 44,
+      "min_col": 1,
+      "max_col": 46
+    },
+    "formula_cell_count": 13,
+    "numeric_cell_count": 0,
+    "is_driver_sheet": false
+  }
+}

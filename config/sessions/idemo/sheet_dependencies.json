@@ -1,0 +1,154 @@
+{
+  "Index ": [
+    "Capex",
+    "Check",
+    "Dep&Tax",
+    "GST",
+    "Ind AS Financials",
+    "Ind AS Monthly",
+    "Monthly Financials",
+    "NTBA",
+    "Ratios",
+    "Rollout",
+    "TBA",
+    "Termination Value",
+    "Time_A",
+    "Time_M"
+  ],
+  "Sensitivity": [
+    "Ratios"
+  ],
+  "NTBA": [
+    "Capex",
+    "Check",
+    "Monthly Financials",
+    "Ratios",
+    "Rollout",
+    "Sensitivity",
+    "TBA",
+    "Time_M"
+  ],
+  "Capex": [
+    "Monthly Financials",
+    "NTBA",
+    "Rollout",
+    "Sensitivity"
+  ],
+  "TBA": [
+    "Check",
+    "NTBA",
+    "Ratios",
+    "Time_M"
+  ],
+  "Rollout": [
+    "Capex",
+    "Check",
+    "Ind AS Financials",
+    "Monthly Financials",
+    "NTBA",
+    "TBA",
+    "Time_M"
+  ],
+  "Monthly Financials": [
+    "Capex",
+    "Check",
+    "GST",
+    "Ind AS Financials",
+    "NTBA",
+    "Rollout",
+    "TBA",
+    "Time_M"
+  ],
+  "Ind AS Monthly": [
+    "Check",
+    "Ind AS Financials",
+    "Monthly Financials",
+    "NTBA",
+    "Rollout",
+    "Time_M"
+  ],
+  "Financials": [
+    "Check",
+    "Dep&Tax",
+    "GST",
+    "Ind AS Financials",
+    "Monthly Financials",
+    "NTBA",
+    "Rollout",
+    "Time_A"
+  ],
+  "Ind AS Financials": [
+    "Check",
+    "Dep&Tax",
+    "Financials",
+    "GST",
+    "Ind AS Monthly",
+    "Monthly Financials",
+    "NTBA",
+    "Rollout",
+    "Time_A"
+  ],
+  "IM Format": [
+    "Financials",
+    "Ind AS Financials",
+    "Ratios",
+    "Rollout"
+  ],
+  "Ratios": [
+    "Check",
+    "Dep&Tax",
+    "Financials",
+    "Ind AS Financials",
+    "Monthly Financials",
+    "NTBA",
+    "Rollout",
+    "TBA",
+    "Time_A"
+  ],
+  "GST": [
+    "Check",
+    "Monthly Financials",
+    "Rollout",
+    "Time_M"
+  ],
+  "Dep&Tax": [
+    "Capex",
+    "Check",
+    "Financials",
+    "Ind AS Financials",
+    "Monthly Financials",
+    "NTBA",
+    "Rollout",
+    "Time_A"
+  ],
+  "Termination Value": [
+    "Check",
+    "Financials",
+    "Ind AS Financials",
+    "Monthly Financials",
+    "NTBA",
+    "Time_A"
+  ],
+  "Time_M": [
+    "Check",
+    "Monthly Financials",
+    "NTBA",
+    "Ratios",
+    "Rollout"
+  ],
+  "Time_A": [
+    "Check",
+    "NTBA"
+  ],
+  "Check": [
+    "Ind AS Financials",
+    "Ind AS Monthly",
+    "Monthly Financials"
+  ],
+  "Cells Report (4)": [],
+  "Cells Report (2)": [],
+  "Model Disclaimer": [],
+  "Model_Flow ": [],
+  "Cells Report (3)": [],
+  "Cover": []
+}

@@ -1,0 +1,109 @@
+{
+  "Smart Meter Rollout": {
+    "Model Settings": [
+      {"name": "months_in_quarter", "label": "Months in Quarter", "type": "integer", "min": 1, "max": 12, "default": 3, "unit": "month"},
+      {"name": "months_per_model_period", "label": "Months per Model Period", "type": "integer", "min": 1, "max": 12, "default": 1, "unit": "month"},
+      {"name": "quarters_in_year", "label": "Quarters in a Year", "type": "integer", "min": 1, "max": 12, "default": 4, "unit": "number"},
+      {"name": "conversion_to_crores", "label": "Conversion to Crores", "type": "integer", "min": 100000, "max": 10000000, "default": 10000000, "unit": "INR"},
+      {"name": "months_in_year", "label": "Months in Year", "type": "integer", "min": 1, "max": 24, "default": 12, "unit": "month"},
+      {"name": "days_in_year", "label": "Days in a Year", "type": "integer", "min": 360, "max": 366, "default": 365, "unit": "days"},
+      {"name": "days_in_month", "label": "Days in a Month", "type": "integer", "min": 28, "max": 31, "default": 30, "unit": "days"},
+      {"name": "model_check_tolerance", "label": "Model Check Tolerance", "type": "float", "min": 0, "max": 0.01, "default": 0.0012447915806887977, "unit": "tolerance"},
+      {"name": "financial_year_end_month", "label": "Financial Year End Month", "type": "integer", "min": 1, "max": 12, "default": 3, "unit": "month"}
+    ],
+    "Project Scale": [
+      {"name": "consumer_meters", "label": "Consumer Meters", "type": "integer", "min": 0, "max": 10000000, "default": 2391869, "unit": "Nos"},
+      {"name": "dt_meters", "label": "DT Meters", "type": "integer", "min": 0, "max": 1000000, "default": 1500, "unit": "Nos"},
+      {"name": "feeder_meters", "label": "Feeder Meters", "type": "integer", "min": 0, "max": 100000, "default": 0, "unit": "Nos"},
+      {"name": "meter_months_for_sbd", "label": "No of Meter Months for SBD", "type": "integer", "min": 0, "max": 1000, "default": 93, "unit": "Nos."}
+    ],
+    "Capex Costs": [
+      {"name": "gst_on_capex", "label": "GST on Capex", "type": "float", "min": 0, "max": 1, "default": 0.18, "unit": "%"},
+      {"name": "armoured_cables_in_project_cost", "label": "Armoured Cables as a part of project cost", "type": "integer", "min": 0, "max": 1, "default": 1, "unit": "1: No, 0: Yes"}
+    ],
+    "Revenue & Billing": [
+      {"name": "service_charge_pmpm", "label": "Quoted Avg. Service Charge (PMPM)", "type": "float", "min": 0, "max": 500, "default": 57.30087515130345, "unit": "INR / meter / month"},
+      {"name": "gst_on_service_charge", "label": "GST on AMISP Service Charge", "type": "float", "min": 0, "max": 1, "default": 0.18, "unit": "%"},
+      {"name": "first_payment_pct", "label": "First Payment", "type": "float", "min": 0, "max": 1, "default": 1, "unit": "%"},
+      {"name": "second_payment_pct", "label": "Second Payment", "type": "float", "min": 0, "max": 1, "default": 0, "unit": "%"},
+      {"name": "final_payment_pct", "label": "Final Payment", "type": "float", "min": 0, "max": 1, "default": 0, "unit": "%"},
+      {"name": "first_payment_months", "label": "First Payment Timing", "type": "integer", "min": 0, "max": 36, "default": 6, "unit": "months"},
+      {"name": "second_payment_months", "label": "Second Payment Timing", "type": "integer", "min": 0, "max": 36, "default": 0, "unit": "months"},
+      {"name": "final_payment_months", "label": "Final Payment Timing", "type": "integer", "min": 0, "max": 36, "default": 0, "unit": "months"},
+      {"name": "shareholder_loan_tranche2_months", "label": "Repayment of Shareholders Loan Tranche 2", "type": "integer", "min": 0, "max": 36, "default": 8, "unit": "months post COD"},
+      {"name": "first_payment_milestone", "label": "First Payment Milestone (% of meters installed)", "type": "float", "min": 0, "max": 1, "default": 0.05, "unit": "%"},
+      {"name": "min_meters_first_billing", "label": "Min no. of meters for first billing", "type": "integer", "min": 0, "max": 1000000, "default": 25000, "unit": "Nos."},
+      {"name": "cable_charges_cod_pct", "label": "First Payment Milestone of Cable Charges - Payable on COD", "type": "float", "min": 0, "max": 1, "default": 0, "unit": "%"},
+      {"name": "cable_invoicing_frequency", "label": "Monthly select 0 / Quarterly select 1", "type": "integer", "min": 0, "max": 1, "default": 1, "unit": "select"},
+      {"name": "cable_price_per_meter", "label": "INR / Meter", "type": "float", "min": 0, "max": 5000, "default": 0, "unit": "Average Price, excl GST"}
+    ],
+    "Opex Costs": [
+      {"name": "o_and_m_charge", "label": "O & M / FMS + Mobile app + MDM Charges", "type": "float", "min": 0, "max": 100, "default": 4.119, "unit": "INR / meter / month"},
+      {"name": "ats_charges", "label": "ATS Charges on Softwares", "type": "float", "min": 0, "max": 100, "default": 1.1, "unit": "INR / meter / month"},
+      {"name": "cloud_hosting_charges", "label": "Cloud Hosting Charges", "type": "float", "min": 0, "max": 100, "default": 2.455, "unit": "INR / meter / month"},
+      {"name": "gprs_charges", "label": "GPRS Charges for GPRS Meters", "type": "float", "min": 0, "max": 100, "default": 3.05, "unit": "INR / meter / month"},
+      {"name": "corporate_cost", "label": "Corporate Cost", "type": "float", "min": 0, "max": 10, "default": 1.03, "unit": "INR Cr / month"},
+      {"name": "site_mandays_cost", "label": "Site Mandays Cost", "type": "float", "min": 0, "max": 10, "default": 0.65, "unit": "INR Cr / month"},
+      {"name": "site_training_cost", "label": "Site Running + Auditor + Training Cost", "type": "float", "min": 0, "max": 10, "default": 0.505, "unit": "INR Cr / month"},
+      {"name": "travel_liaisoning_cost", "label": "Travel & Liaisoning Cost", "type": "float", "min": 0, "max": 10, "default": 0.174, "unit": "INR Cr / month"},
+      {"name": "compliance_risk_cost", "label": "BG, Insurance Cost, Fin. Compliance Cost & Risk Cost", "type": "float", "min": 0, "max": 10, "default": 0.39, "unit": "INR Cr / month"},
+      {"name": "armoured_cable_installation_cost", "label": "Installation of Armoured Cables", "type": "float", "min": 0, "max": 100, "default": 0, "unit": "INR / meter"},
+      {"name": "sla_penalty_pct", "label": "Penalty - SLA", "type": "float", "min": 0, "max": 1, "default": 0.06, "unit": "% of revenue"},
+      {"name": "opex_escalation_pct", "label": "Escalation/ Discount on Opex", "type": "float", "min": -1, "max": 1, "default": 0, "unit": "%"},
+      {"name": "it_expense_escalation_pct", "label": "Escalation on IT related expenses", "type": "float", "min": -1, "max": 1, "default": 0, "unit": "%"},
+      {"name": "gst_on_opex", "label": "GST on Opex", "type": "float", "min": 0, "max": 1, "default": 0.18, "unit": "%"},
+      {"name": "csr_expenses_pct", "label": "CSR Expenses", "type": "float", "min": 0, "max": 1, "default": 0, "unit": "%"}
+    ],
+    "Sensitivity": [
+      {"name": "interest_rate_increase_pct", "label": "Increase in Interest Rate by", "type": "float", "min": 0, "max": 1, "default": 0.02, "unit": "%"},
+      {"name": "opex_increase_pct", "label": "Increase in O&M by", "type": "float", "min": 0, "max": 1, "default": 0.1, "unit": "%"},
+      {"name": "project_cost_increase_pct", "label": "Increase in Project Cost by", "type": "float", "min": 0, "max": 1, "default": 0.05, "unit": "%"},
+      {"name": "sla_penalty_sensitivity_pct", "label": "Imposition of SLA penalty of", "type": "float", "min": 0, "max": 1, "default": 0.05, "unit": "%"},
+      {"name": "operating_meter_reduction_pct", "label": "Decrease in number of operating meters by 5%", "type": "float", "min": 0, "max": 1, "default": 0.05, "unit": "%"}
+    ],
+    "Financing": [
+      {"name": "internal_accruals_switch", "label": "Internal accruals", "type": "integer", "min": 0, "max": 1, "default": 0, "unit": "switch"},
+      {"name": "debt_ratio", "label": "Debt", "type": "float", "min": 0, "max": 1, "default": 0.75, "unit": "%"},
+      {"name": "additional_infusion", "label": "Additional Infusion", "type": "float", "min": 0, "max": 1000000, "default": 0, "unit": "INR Cr"},
+      {"name": "equity_share_capital_pct", "label": "Equity Share Capital", "type": "float", "min": 0, "max": 1, "default": 0.25, "unit": "%"},
+      {"name": "upfront_equity_pct", "label": "Upfront Equity", "type": "float", "min": 0, "max": 1, "default": 0.25, "unit": "%"},
+      {"name": "financing_charges_pct", "label": "Financing Charges", "type": "float", "min": 0, "max": 1, "default": 0.005, "unit": "%"},
+      {"name": "post_construction_interest_rate", "label": "Interest Rate Post Construction", "type": "float", "min": 0, "max": 1, "default": 0.0875, "unit": "%"},
+      {"name": "construction_interest_rate", "label": "Interest Rate during Construction", "type": "float", "min": 0, "max": 1, "default": 0.09, "unit": "%"},
+      {"name": "moratorium_months", "label": "Moratorium", "type": "integer", "min": 0, "max": 24, "default": 1, "unit": "months"},
+      {"name": "tail_period_months", "label": "Tail Period", "type": "integer", "min": 0, "max": 60, "default": 16, "unit": "months"},
+      {"name": "dsra_requirement_months", "label": "DSRA Requirement", "type": "integer", "min": 0, "max": 24, "default": 3, "unit": "months"},
+      {"name": "peak_dsra_duration_months", "label": "Duration for computing Peak DSRA for inclusion under Project Cost", "type": "integer", "min": 0, "max": 24, "default": 0, "unit": "months"},
+      {"name": "target_dscr", "label": "Target DSCR", "type": "float", "min": 0, "max": 10, "default": 1.2, "unit": "ratio"},
+      {"name": "repayment_option", "label": "Repayment option", "type": "integer", "min": 1, "max": 4, "default": 4, "unit": "option"},
+      {"name": "sponsor_loan_interest_rate", "label": "Interest on Sponsor Loan", "type": "float", "min": 0, "max": 1, "default": 0, "unit": "%"},
+      {"name": "minimum_cash", "label": "Minimum Cash", "type": "float", "min": 0, "max": 1000000, "default": 0, "unit": "INR Cr"},
+      {"name": "max_dividend_pct", "label": "Maximum Dividend as a % of Retained Earnings", "type": "float", "min": 0, "max": 1, "default": 0, "unit": "%"},
+      {"name": "dividends_payable_switch", "label": "Dividends payable", "type": "integer", "min": 0, "max": 1, "default": 0, "unit": "switch"},
+      {"name": "shareholder_loan_switch", "label": "Shareholder loan", "type": "integer", "min": 0, "max": 1, "default": 0, "unit": "switch"},
+      {"name": "capital_reduction_switch", "label": "Capital reduction", "type": "integer", "min": 0, "max": 1, "default": 0, "unit": "switch"},
+      {"name": "margin_money_pct", "label": "Margin Money", "type": "float", "min": 0, "max": 1, "default": 0.25, "unit": "%"},
+      {"name": "working_capital_interest_rate", "label": "Interest on Working Capital Loan", "type": "float", "min": 0, "max": 1, "default": 0.09, "unit": "%"}
+    ],
+    "Depreciation & Tax": [
+      {"name": "slm_dep_rate", "label": "Plant & Machinery (SLM)", "type": "float", "min": 0, "max": 1, "default": 0.15, "unit": "%"},
+      {"name": "slm_max_dep_rate", "label": "Maximum Depreciation (SLM)", "type": "float", "min": 0, "max": 1, "default": 1, "unit": "%"},
+      {"name": "wdv_dep_rate", "label": "Plant & Machinery (WDV)", "type": "float", "min": 0, "max": 1, "default": 0.4, "unit": "%"},
+      {"name": "wdv_max_dep_rate", "label": "Maximum Depreciation (WDV)", "type": "float", "min": 0, "max": 1, "default": 1, "unit": "%"},
+      {"name": "book_dep_method", "label": "Choose Method for Book Dep", "type": "string", "default": "SLM", "unit": "switch"},
+      {"name": "tax_dep_method", "label": "Choose Method for Tax Dep", "type": "string", "default": "WDV", "unit": "switch"},
+      {"name": "income_tax_rate", "label": "Income Tax Rate", "type": "float", "min": 0, "max": 1, "default": 0.22, "unit": "%"},
+      {"name": "surcharge_rate", "label": "Surcharge", "type": "float", "min": 0, "max": 1, "default": 0.1, "unit": "%"},
+      {"name": "education_cess_rate", "label": "Education Cess", "type": "float", "min": 0, "max": 1, "default": 0.04, "unit": "%"},
+      {"name": "corporate_tax_rate", "label": "Corporate Tax Rate", "type": "float", "min": 0, "max": 1, "default": 0.2832, "unit": "% p.a."},
+      {"name": "mat_rate", "label": "MAT rate", "type": "float", "min": 0, "max": 1, "default": 0, "unit": "%"}
+    ],
+    "Analysis & Risk": [
+      {"name": "target_irr", "label": "IRR", "type": "float", "min": 0, "max": 1, "default": 0.14, "unit": "%"},
+      {"name": "discounting_factor", "label": "Discounting Factor", "type": "float", "min": 0, "max": 1, "default": 0.0925, "unit": "%"},
+      {"name": "amisp_event_of_default_pct", "label": "AMISP Event of Default", "type": "float", "min": 0, "max": 1, "default": 0.6, "unit": "%"},
+      {"name": "utility_event_of_default_pct", "label": "Utility's Event of Default", "type": "float", "min": 0, "max": 1, "default": 1, "unit": "%"},
+      {"name": "discount_rate", "label": "Discount Rate", "type": "float", "min": 0, "max": 1, "default": 0.105, "unit": "%"}
+    ]
+  }
+}

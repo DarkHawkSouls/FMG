@@ -1,0 +1,60 @@
+{
+  "Solar Project": [
+    {"name": "capacity_mw",       "label": "Plant Capacity (MW)",         "type": "float",   "min": 1,    "max": 5000,  "default": 100,   "unit": "MW"},
+    {"name": "ppa_tariff",        "label": "PPA Tariff (₹/kWh)",          "type": "float",   "min": 0.5,  "max": 20,    "default": 4.5,   "unit": "₹/kWh"},
+    {"name": "capex_per_mw",      "label": "Capex per MW (₹ Lakh)",       "type": "float",   "min": 100,  "max": 1000,  "default": 420,   "unit": "₹ Lakh/MW"},
+    {"name": "debt_ratio",        "label": "Debt Ratio",                   "type": "float",   "min": 0,    "max": 0.95,  "default": 0.70,  "unit": "%"},
+    {"name": "debt_rate",         "label": "Interest Rate on Debt (%)",    "type": "float",   "min": 5,    "max": 20,    "default": 10.5,  "unit": "%"},
+    {"name": "project_life",      "label": "Project Life (Years)",         "type": "integer", "min": 5,    "max": 50,    "default": 25,    "unit": "Yrs"},
+    {"name": "plant_load_factor", "label": "Plant Load Factor (%)",        "type": "float",   "min": 10,   "max": 100,   "default": 21,    "unit": "%"},
+    {"name": "degradation_rate",  "label": "Annual Degradation Rate (%)",  "type": "float",   "min": 0,    "max": 5,     "default": 0.5,   "unit": "%/yr"},
+    {"name": "opex_per_mw",       "label": "O&M Cost per MW (₹ Lakh/yr)", "type": "float",   "min": 1,    "max": 100,   "default": 8,     "unit": "₹ Lakh/yr"},
+    {"name": "tax_rate",          "label": "Corporate Tax Rate (%)",       "type": "float",   "min": 0,    "max": 50,    "default": 25.17, "unit": "%"}
+  ],
+  "Wind Project": [
+    {"name": "capacity_mw",       "label": "Installed Capacity (MW)",      "type": "float",   "min": 1,    "max": 5000,  "default": 50,    "unit": "MW"},
+    {"name": "tariff_per_unit",   "label": "Tariff per Unit (₹/kWh)",      "type": "float",   "min": 1,    "max": 15,    "default": 5.20,  "unit": "₹/kWh"},
+    {"name": "capex_per_mw",      "label": "Capex per MW (₹ Crore)",       "type": "float",   "min": 3,    "max": 15,    "default": 7.5,   "unit": "₹ Cr/MW"},
+    {"name": "debt_ratio",        "label": "Debt Ratio",                   "type": "float",   "min": 0,    "max": 0.90,  "default": 0.70,  "unit": "%"},
+    {"name": "plant_load_factor", "label": "CUF / PLF (%)",                "type": "float",   "min": 10,   "max": 60,    "default": 28,    "unit": "%"},
+    {"name": "project_life",      "label": "Project Life (Years)",         "type": "integer", "min": 10,   "max": 40,    "default": 25,    "unit": "Yrs"},
+    {"name": "tax_rate",          "label": "Corporate Tax Rate (%)",       "type": "float",   "min": 0,    "max": 50,    "default": 25.17, "unit": "%"}
+  ],
+  "Smart Meter Rollout": [
+    {"name": "consumer_meters",   "label": "Consumer Meters (Units)",      "type": "integer", "min": 1000, "max": 10000000, "default": 500000, "unit": "Units"},
+    {"name": "dt_meters",         "label": "DT Meters (Units)",            "type": "integer", "min": 100,  "max": 1000000,  "default": 50000,  "unit": "Units"},
+    {"name": "meter_cost",        "label": "Cost per Consumer Meter (₹)",  "type": "float",   "min": 500,  "max": 10000, "default": 2500,  "unit": "₹"},
+    {"name": "dt_meter_cost",     "label": "Cost per DT Meter (₹)",        "type": "float",   "min": 1000, "max": 50000, "default": 10000, "unit": "₹"},
+    {"name": "revenue_per_meter", "label": "Monthly Revenue per Meter (₹)","type": "float",   "min": 10,   "max": 500,   "default": 85,    "unit": "₹/meter/mo"},
+    {"name": "rollout_years",     "label": "Rollout Period (Years)",       "type": "integer", "min": 1,    "max": 10,    "default": 3,     "unit": "Yrs"},
+    {"name": "debt_ratio",        "label": "Debt Ratio",                   "type": "float",   "min": 0,    "max": 0.90,  "default": 0.75,  "unit": "%"},
+    {"name": "tax_rate",          "label": "Corporate Tax Rate (%)",       "type": "float",   "min": 0,    "max": 50,    "default": 25.17, "unit": "%"}
+  ],
+  "Highway PPP": [
+    {"name": "highway_length_km", "label": "Highway Length (km)",          "type": "float",   "min": 10,   "max": 5000,  "default": 200,   "unit": "km"},
+    {"name": "capex_per_km",      "label": "Capex per km (₹ Crore)",       "type": "float",   "min": 5,    "max": 200,   "default": 25,    "unit": "₹ Cr/km"},
+    {"name": "toll_rate_base",    "label": "Base Toll Rate (₹/vehicle)",   "type": "float",   "min": 10,   "max": 500,   "default": 65,    "unit": "₹"},
+    {"name": "daily_traffic_pcus","label": "Daily Traffic (PCUs)",         "type": "integer", "min": 1000, "max": 200000,"default": 25000, "unit": "PCU/day"},
+    {"name": "concession_period", "label": "Concession Period (Years)",    "type": "integer", "min": 10,   "max": 50,    "default": 30,    "unit": "Yrs"},
+    {"name": "debt_ratio",        "label": "Debt Ratio",                   "type": "float",   "min": 0,    "max": 0.90,  "default": 0.80,  "unit": "%"},
+    {"name": "tax_rate",          "label": "Corporate Tax Rate (%)",       "type": "float",   "min": 0,    "max": 50,    "default": 25.17, "unit": "%"}
+  ],
+  "Network Rollout": [
+    {"name": "tower_count",       "label": "Tower Sites",                  "type": "integer", "min": 10,   "max": 100000,"default": 5000,  "unit": "Sites"},
+    {"name": "capex_per_tower",   "label": "Capex per Tower (₹ Lakh)",     "type": "float",   "min": 5,    "max": 200,   "default": 40,    "unit": "₹ Lakh"},
+    {"name": "monthly_revenue_per_tower","label":"Monthly Revenue per Tower (₹ Lakh)","type":"float","min":0.5,"max":20,"default":3.5,"unit":"₹ Lakh/mo"},
+    {"name": "rollout_years",     "label": "Rollout Period (Years)",       "type": "integer", "min": 1,    "max": 10,    "default": 4,     "unit": "Yrs"},
+    {"name": "debt_ratio",        "label": "Debt Ratio",                   "type": "float",   "min": 0,    "max": 0.85,  "default": 0.65,  "unit": "%"},
+    {"name": "tax_rate",          "label": "Corporate Tax Rate (%)",       "type": "float",   "min": 0,    "max": 50,    "default": 25.17, "unit": "%"}
+  ],
+  "Plant Expansion": [
+    {"name": "production_capacity","label": "Production Capacity (Units/yr)","type":"float", "min": 1000, "max": 10000000,"default":500000,"unit":"Units/yr"},
+    {"name": "capex_total",       "label": "Total Capex (₹ Crore)",        "type": "float",   "min": 1,    "max": 10000, "default": 150,   "unit": "₹ Crore"},
+    {"name": "selling_price",     "label": "Selling Price per Unit (₹)",   "type": "float",   "min": 1,    "max": 100000,"default": 2500,  "unit": "₹"},
+    {"name": "variable_cost_pct", "label": "Variable Cost (% of Revenue)", "type": "float",   "min": 10,   "max": 90,    "default": 55,    "unit": "%"},
+    {"name": "utilization_yr1",   "label": "Utilisation Year 1 (%)",       "type": "float",   "min": 10,   "max": 100,   "default": 60,    "unit": "%"},
+    {"name": "debt_ratio",        "label": "Debt Ratio",                   "type": "float",   "min": 0,    "max": 0.85,  "default": 0.65,  "unit": "%"},
+    {"name": "project_life",      "label": "Project Life (Years)",         "type": "integer", "min": 5,    "max": 30,    "default": 15,    "unit": "Yrs"},
+    {"name": "tax_rate",          "label": "Corporate Tax Rate (%)",       "type": "float",   "min": 0,    "max": 50,    "default": 25.17, "unit": "%"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Energy": {
+    "Solar Project": "templates/energy/solar_project_model.xlsx",
+    "Wind Project":  "templates/energy/wind_project_model.xlsx"
+  },
+  "Infrastructure": {
+    "Smart Meter Rollout": "examples/idemo.xlsx",
+    "Highway PPP":         "templates/infrastructure/highway_ppp_model.xlsx"
+  },
+  "Telecom": {
+    "Network Rollout": "templates/telecom/network_rollout_model.xlsx"
+  },
+  "Manufacturing": {
+    "Plant Expansion": "templates/manufacturing/plant_expansion_model.xlsx"
+  }
+}
