@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "jetro": {
+      "command": "C:\\Users\\agnid\\.jetro\\runtime\\node-win32-x64.exe",
+      "args": [
+        "C:\\Users\\agnid\\.jetro\\mcp-server\\index.js"
+      ],
+      "env": {
+        "JET_WORKSPACE": "f:\\FMG",
+        "JET_API_URL": "https://api.jetro.ai",
+        "JET_JWT": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImM5YTBjMWRlYWEyN2JjNjMyNTUzYmM4MWEyMmQ4NzY1MWM3MTMyY2IiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vamV0cm8tY2RhZWYiLCJhdWQiOiJqZXRyby1jZGFlZiIsImF1dGhfdGltZSI6MTc3OTc4OTI0MCwidXNlcl9pZCI6IkViczhHaHJVMHlUWkpMdU5xZ2ZFUmswcmkzTzIiLCJzdWIiOiJFYnM4R2hyVTB5VFpKTHVOcWdmRVJrMHJpM08yIiwiaWF0IjoxNzc5ODIxOTk4LCJleHAiOjE3Nzk4MjU1OTgsImVtYWlsIjoiYWduaWRiaGF0dGFjaGVyamVlQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImFnbmlkYmhhdHRhY2hlcmplZUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.Cd645iXgL2qM_mJLdnAuLqwtsVno-ABZ7aHXc-HpuwLyw6ICVjVMjoW7Oj8Ge3nW-biQ4xfowIX27nkVGZrJlwrqpfdwA_2MRFp-WziGm4FkZJx8AUL15oif9_FS5DunWWaC3htNIGiN6EvfZ_1AbQZOMXxulseKTh24qo1FhYZm47xwUUbpJfKVl0JeT5K6qnOWT9Xach7HuQ073PGJw5l3PfDiMh3Ti3QE_sC1OIy7K3Ih1Q2ZwLnHXinAVb33eN4oQUdlkJh1siAulzgRk4mk8phHaXV54WSKJ2N81WwFKWCi5uJjcXkojrDCjxcL9vkOFcscDrFEFiCKQouE3Q",
+        "PATH": "C:\\Users\\agnid\\.jetro\\runtime;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\libnvvp;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1\\;C:\\Program Files\\Tesseract-OCR;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\agnid\\.local\\bin;C:\\Users\\agnid\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\agnid\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\agnid\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\agnid\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\agnid\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\Users\\agnid\\AppData\\Local\\Programs\\Ollama;C:\\Users\\agnid\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Users\\agnid\\AppData\\Roaming\\npm;C:\\Users\\agnid\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+      }
+    }
+  }
+}

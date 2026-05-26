@@ -17,14 +17,14 @@ from typing import Any
 
 import streamlit as st
 
+ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(ROOT))
+
 from engines.project_config import (
     flatten_project_fields,
     load_driver_registry as load_driver_registry_config,
     load_input_schema as load_input_schema_config,
 )
-
-ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(ROOT))
 
 # ── Page config (must be first Streamlit call) ────────────────────────────────
 st.set_page_config(

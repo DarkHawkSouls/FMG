@@ -16,8 +16,13 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-REPORT_DIR = Path(__file__).parent.parent / "output" / "reports"
-REPORT_DIR.mkdir(parents=True, exist_ok=True)
+import os
+
+if os.environ.get("VERCEL"):
+    REPORT_DIR = Path("/tmp")
+else:
+    REPORT_DIR = Path(__file__).parent.parent / "output" / "reports"
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------------------
 # PDF generation (reportlab)

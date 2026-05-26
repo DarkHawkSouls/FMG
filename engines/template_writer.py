@@ -26,8 +26,13 @@ from engines.project_config import normalize_sheet_name, resolve_sheet_name
 # Allowed write targets
 ALLOWED_SHEETS = {"NTBA", "Capex", "TBA", "Sensitivity"}
 
-OUTPUT_DIR = Path(__file__).parent.parent / "output" / "generated_models"
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+import os
+
+if os.environ.get("VERCEL"):
+    OUTPUT_DIR = Path("/tmp")
+else:
+    OUTPUT_DIR = Path(__file__).parent.parent / "output" / "generated_models"
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def write_model(
