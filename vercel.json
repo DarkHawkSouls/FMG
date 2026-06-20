@@ -1,7 +1,12 @@
 {
   "functions": {
     "api/index.py": {
-      "includeFiles": "engines/**,config/**,examples/**,templates/**"
+      "includeFiles": [
+        "engines/**",
+        "config/**",
+        "examples/**",
+        "templates/**"
+      ]
     }
   },
   "rewrites": [

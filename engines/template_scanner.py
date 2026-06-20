@@ -23,9 +23,12 @@ from typing import Any
 import openpyxl
 from openpyxl.utils import get_column_letter, column_index_from_string
 
+import os
+
 ROOT       = Path(__file__).parent.parent
 CONFIG_DIR = ROOT / "config"
-CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+if not os.environ.get("VERCEL"):
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
 
 # Sheets where driver inputs live — only these are scanned for candidates
 DRIVER_SHEETS = ["NTBA", "Capex", "TBA", "Sensitivity"]
